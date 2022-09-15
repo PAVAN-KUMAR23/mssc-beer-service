@@ -4,22 +4,19 @@ import com.pavan.msscbeerservice.domain.Beer;
 import com.pavan.msscbeerservice.repository.BeerRepository;
 import com.pavan.msscbeerservice.web.mappers.BeerMapper;
 import com.pavan.msscbeerservice.web.model.BeerDto;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 @Service
+@RequiredArgsConstructor
 public class BeerServiceImpl implements BeerService{
 
     private final BeerRepository beerRepository;
 
     private final BeerMapper beerMapper;
 
-    public BeerServiceImpl(BeerRepository beerRepository, BeerMapper beerMapper) {
-        this.beerRepository = beerRepository;
-        this.beerMapper = beerMapper;
-    }
 
 
     @Override
