@@ -2,7 +2,6 @@ package com.pavan.msscbeerservice.web.controller;
 
 import com.pavan.msscbeerservice.service.BeerService;
 import com.pavan.msscbeerservice.web.model.BeerDto;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.http.HttpStatus;

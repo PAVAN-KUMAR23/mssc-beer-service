@@ -1,4 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: com.pavan.msscbeerservice.MsscBeerServiceApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.707 s - in com.pavan.msscbeerservice.MsscBeerServiceApplicationTests
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.536 s <<< FAILURE! - in com.pavan.msscbeerservice.MsscBeerServiceApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beerServiceImpl' defined in file [E:\STS-WorksSpace\mssc-beer-service\target\classes\com\pavan\msscbeerservice\service\BeerServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.pavan.msscbeerservice.web.mappers.BeerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.pavan.msscbeerservice.web.mappers.BeerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+

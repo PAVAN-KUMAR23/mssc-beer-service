@@ -1,3 +1,15 @@
 com\pavan\msscbeerservice\web\mappers\BeerMapper.class
+com\pavan\msscbeerservice\web\model\BeerStyleEnum.class
+com\pavan\msscbeerservice\web\model\BeerDto.class
+com\pavan\msscbeerservice\bootstrap\BeerLoader.class
+com\pavan\msscbeerservice\web\model\BeerPagedList.class
+com\pavan\msscbeerservice\domain\Beer$BeerBuilder.class
+com\pavan\msscbeerservice\repository\BeerRepository.class
+com\pavan\msscbeerservice\web\model\BeerDto$BeerDtoBuilder.class
+com\pavan\msscbeerservice\domain\Beer.class
+com\pavan\msscbeerservice\service\BeerService.class
+com\pavan\msscbeerservice\web\controller\BeerController.class
 com\pavan\msscbeerservice\web\controller\MvcExceptionHandler.class
+com\pavan\msscbeerservice\MsscBeerServiceApplication.class
 com\pavan\msscbeerservice\web\mappers\DateMapper.class
+com\pavan\msscbeerservice\service\BeerServiceImpl.class

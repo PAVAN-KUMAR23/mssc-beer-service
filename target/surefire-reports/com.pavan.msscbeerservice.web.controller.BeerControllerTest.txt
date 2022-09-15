@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.pavan.msscbeerservice.web.controller.BeerControllerTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.551 s <<< FAILURE! - in com.pavan.msscbeerservice.web.controller.BeerControllerTest
-updateBeerById  Time elapsed: 0.094 s  <<< FAILURE!
-java.lang.AssertionError: Status expected:<204> but was:<500>
-	at com.pavan.msscbeerservice.web.controller.BeerControllerTest.updateBeerById(BeerControllerTest.java:57)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.079 s - in com.pavan.msscbeerservice.web.controller.BeerControllerTest

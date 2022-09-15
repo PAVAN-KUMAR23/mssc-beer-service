@@ -2,7 +2,6 @@ package com.pavan.msscbeerservice.service;
 
 import com.pavan.msscbeerservice.web.model.BeerDto;
 import org.springframework.data.crossstore.ChangeSetPersister;
-import org.springframework.http.ResponseEntity;
 
 import java.util.UUID;
 
